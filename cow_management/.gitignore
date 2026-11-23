@@ -63,7 +63,6 @@ assets/config/.env
 .dart_server/
 build/
 **/build/
-pubspec.lock
 package_config_subset
 package_config_subset.json
 version
@@ -82,7 +81,6 @@ windows/flutter/generated_plugin_registrant.h
 linux/flutter/generated_plugin_registrant.cc
 linux/flutter/generated_plugin_registrant.h
 web/generated_plugin_registrant.dart
-pubspec.lock
 package_config_subset
 package_config_subset.json
 version
@@ -241,7 +239,6 @@ firebase_options.dart
 # =========================================
 # 프로젝트 특이 설정 (minji)
 # =========================================
-pubspec.lock
 package_config_subset
 package_config_subset.jsongitp
 version
@@ -262,10 +259,6 @@ build/
 
 backend/*
 
-# dependencies 추가 시엔 !pubspec.yaml 을 사용하여 스테이징 후 커밋 바랍니다.
-pubspec.yaml
-*/pubspec.yaml
-*/*/pubspec.yaml
 
 settings.gradle
 */settings.gradle
